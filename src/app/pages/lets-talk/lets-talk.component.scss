@@ -1,0 +1,155 @@
+.lt-hero {
+  padding: 100px 24px 40px;
+  text-align: center;
+
+  h1 {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+}
+.lt-main {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 60px;
+  padding: 60px 80px;
+}
+
+.lt-left h2 {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.testimonial.dark {
+  background: #0d0d0d;
+  color: #fff;
+  padding: 26px;
+  border-radius: 18px;
+  margin-top: 20px;
+}
+
+.form-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0,0,0,.08);
+}
+
+.form-card label {
+  font-weight: 600;
+  margin-top: 18px;
+  display: block;
+}
+
+.form-card input,
+.form-card select,
+.form-card textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 4px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.submit-btn {
+  background: linear-gradient(
+    135deg,
+    var(--primary-purple),
+    #ff2d8d
+  );
+  color: #fff;
+  border-radius: 30px;
+  padding: 14px;
+  width: 100%;
+  margin-top: 30px;
+}
+.info-section {
+  padding: 80px 6%;
+  background: #fafafa;
+  font-family: 'Inter', sans-serif;
+}
+
+/* PROCESS */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.process-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-6px);
+}
+
+.process-card h3 {
+  margin: 15px 0 10px;
+}
+
+.icon.purple {
+  background: #6a0dad;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+/* CONTACT */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-bottom: 80px;
+}
+
+.contact-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.contact-card .icon {
+  font-size: 28px;
+  color: #6a0dad;
+}
+
+/* FAQ */
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+details {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+
+summary {
+  font-weight: 600;
+  color: #222;
+}
+
+details p {
+  margin-top: 12px;
+  color: #555;
+}
